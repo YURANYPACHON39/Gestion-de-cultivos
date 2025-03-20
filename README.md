@@ -55,7 +55,7 @@ La interfaz de AgroGestión Pro está diseñada para ser intuitiva, moderna y ef
    - Inicio de sesión con credenciales (si se requiere seguridad en los datos).
    - Acceso directo sin autenticación para usuarios que no lo necesiten.
 
-2. Dashboard (Panel Principal)
+2. Panel Principal
    - Resumen general con indicadores clave:
    - Número de cultivos activos.
    - Consumo de recursos en la última semana.

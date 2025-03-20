@@ -96,8 +96,8 @@ La interfaz de AgroGestión Pro está diseñada para ser intuitiva, moderna y ef
 2. Gestión de Recursos
    - Registro y control del consumo de insumos.
      
- 3. Planificación de Actividades
+3. Planificación de Actividades
    - Creación de tareas y alertas en el calendario interactivo.
      
- 4. Análisis y Reportes
+4. Análisis y Reportes
    - Generación de informes gráficos sobre productividad y costos.

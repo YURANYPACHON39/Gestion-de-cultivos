@@ -31,64 +31,73 @@ Módulos del Sistema
    - Posibilidad de ingresar datos manualmente desde sensores externos.
 
 3. Planificación de Actividades
-	-	Creación de calendarios de siembra, riego, fertilización y cosecha.
-	-	Generación de recordatorios y notificaciones sobre tareas pendientes.
-	-	Optimización de tiempos y recursos para mejorar la eficiencia operativa.
+   - Creación de calendarios de siembra, riego, fertilización y cosecha.
+   - Generación de recordatorios y notificaciones sobre tareas pendientes.
+   - Optimización de tiempos y recursos para mejorar la eficiencia operativa.
 
 4. Generación de Reportes y Análisis de Datos
-	-	Creación de informes detallados sobre rendimiento de cultivos, costos y uso de recursos.
-	-	Visualización de datos con gráficos y estadísticas interactivas.
-	-	Exportación de reportes en Excel y PDF para análisis y seguimiento.
+   - Creación de informes detallados sobre rendimiento de cultivos, costos y uso de recursos.
+   - Visualización de datos con gráficos y estadísticas interactivas.
+   - Exportación de reportes en Excel y PDF para análisis y seguimiento.
 
 ## Interfaz de Usuario
 La interfaz de AgroGestión Pro está diseñada para ser intuitiva, moderna y eficiente, facilitando el acceso a la información sin necesidad de conocimientos técnicos avanzados. Se utilizará un diseño basado en Material Design para una experiencia visual clara y ordenada.
+
 - Diseño General
-	-	Interfaz de escritorio exclusiva para Windows, desarrollada con Electron.js.
-	-	Menú lateral fijo para una navegación rápida entre módulos.
-	-	Panel principal con un dashboard que muestra información relevante de un vistazo.
-	-	Gráficos interactivos y mapas para visualizar datos de productividad y consumo.
-	-	Uso de colores y tipografía accesible para mejorar la experiencia del usuario.
+   - Interfaz de escritorio exclusiva para Windows, desarrollada con Electron.js.
+   - Menú lateral fijo para una navegación rápida entre módulos.
+   - Panel principal con un dashboard que muestra información relevante de un vistazo.
+   - Gráficos interactivos y mapas para visualizar datos de productividad y consumo.
+   - Uso de colores y tipografía accesible para mejorar la experiencia del usuario.
 
 - Componentes Principales
- 1.	Pantalla de Inicio y Autenticación (Opcional)
-	-	Inicio de sesión con credenciales (si se requiere seguridad en los datos).
-	-	Acceso directo sin autenticación para usuarios que no lo necesiten.
- 2.	Dashboard (Panel Principal)
-	-	Resumen general con indicadores clave:
-	-	Número de cultivos activos.
-	-	Consumo de recursos en la última semana.
-	-	Próximas tareas pendientes.
-	-	Gráficos de productividad y consumo con visualización rápida de tendencias.
-	-	Accesos directos a los módulos principales.
- 3.	Módulo de Cultivos
-	-	Formulario de registro para ingresar detalles del cultivo (nombre, tipo de planta, fecha de siembra, etc.).
-	-	Tabla con historial de cultivos con filtros y búsqueda rápida.
-	-	Gráficos de crecimiento en función de los datos ingresados.
-	-	Alertas visuales para tareas como riego, fertilización y cosecha.
- 4.	Módulo de Gestión de Recursos
-	-	Listado de insumos agrícolas con cantidad disponible y consumo estimado.
-	-	Gráficos de consumo para visualizar tendencias de uso.
-	-	Alertas de bajo stock para evitar desperdicio o escasez de materiales.
- 5.	Módulo de Planificación
-	-	Calendario interactivo con programación de tareas.
-	-	Notificaciones de actividades pendientes.
-	-	Opciones de reprogramación rápida en caso de cambios.
- 6.	Módulo de Reportes
-	-	Generación de informes visuales sobre rendimiento de cultivos y costos.
-	-	Gráficos y mapas interactivos para análisis de productividad.
-	-	Consulta de reportes almacenados en la base de datos SQLite.
+1. Pantalla de Inicio y Autenticación (Opcional)
+   - Inicio de sesión con credenciales (si se requiere seguridad en los datos).
+   - Acceso directo sin autenticación para usuarios que no lo necesiten.
+
+2. Dashboard (Panel Principal)
+   - Resumen general con indicadores clave:
+   - Número de cultivos activos.
+   - Consumo de recursos en la última semana.
+   - Próximas tareas pendientes.
+   - Gráficos de productividad y consumo con visualización rápida de tendencias.
+   - Accesos directos a los módulos principales.
+
+3. Módulo de Cultivos
+   - Formulario de registro para ingresar detalles del cultivo (nombre, tipo de planta, fecha de siembra, etc.).
+   - Tabla con historial de cultivos con filtros y búsqueda rápida.
+   - Gráficos de crecimiento en función de los datos ingresados.
+   - Alertas visuales para tareas como riego, fertilización y cosecha.
+
+4. Módulo de Gestión de Recursos
+   - Listado de insumos agrícolas con cantidad disponible y consumo estimado.
+   - Gráficos de consumo para visualizar tendencias de uso.
+   - Alertas de bajo stock para evitar desperdicio o escasez de materiales.
+     
+5. Módulo de Planificación
+   - Calendario interactivo con programación de tareas.
+   - Notificaciones de actividades pendientes.
+   - Opciones de reprogramación rápida en caso de cambios.
+     
+6. Módulo de Reportes
+   - Generación de informes visuales sobre rendimiento de cultivos y costos.
+   - Gráficos y mapas interactivos para análisis de productividad.
+   - Consulta de reportes almacenados en la base de datos SQLite.
 
 ## Tecnología 
-	-	Lenguaje de Programación: JavaScript (con Electron.js).
-	-	Base de Datos: SQLite (almacenamiento estable y escalable).
-	-	Plataforma: Exclusiva para Windows.
+   - Lenguaje de Programación: JavaScript (con Electron.js).
+   - Base de Datos: SQLite (almacenamiento estable y escalable).
+   - Plataforma: Exclusiva para Windows.
 
 ## Flujo del Sistema
- 1.	Inicio y Registro de Cultivos
-	-	Ingreso de datos de cultivos y visualización de su estado.
- 2.	Gestión de Recursos
-	- Registro y control del consumo de insumos.
- 3.	Planificación de Actividades
-	-	Creación de tareas y alertas en el calendario interactivo.
- 4.	Análisis y Reportes
-	-	Generación de informes gráficos sobre productividad y costos.
+1. Inicio y Registro de Cultivos
+   - Ingreso de datos de cultivos y visualización de su estado.
+     
+2. Gestión de Recursos
+   - Registro y control del consumo de insumos.
+     
+ 3. Planificación de Actividades
+   - Creación de tareas y alertas en el calendario interactivo.
+     
+ 4. Análisis y Reportes
+   - Generación de informes gráficos sobre productividad y costos.
